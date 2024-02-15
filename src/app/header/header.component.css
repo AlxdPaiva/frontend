@@ -7,7 +7,7 @@
 
 #navbar {
     display: flex;
-    background-color: #252121;
+    background-color: #525252;
     color: white;
     font-weight: bold;
     justify-content: center;
@@ -24,7 +24,7 @@
 }
 
 #navbar .navbar-container .logo {
-    height: 40px;
+    height: 100px;
     width: auto;
     padding-top: 2px;
     padding-left: 4px;
@@ -43,7 +43,7 @@
 #navbar .navbar-container ul li .navbar-button{
     font-family: 'Inter', sans-serif;
     border: none;
-    background-color: #252121;
+    background-color: #525252;
     color: white;
     font-weight: bold;
     font-size: 12pt;
@@ -55,5 +55,16 @@
     padding: 0 20px;
 }
 
+@media (prefers-color-scheme: dark) {
+    #navbar {
+        background-color: #525252;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    #navbar {
+        background-color: #d2d2d2;
+    }
+}
 
 
